@@ -1,2 +1,44 @@
 /* Add styles here */
-body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body{
+    background-image: url("image/istockphoto-471911297-1024x1024.jpg");
+    background-repeat: no-repeat;
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-size: 100%;
+}
+.navBar{
+    padding: 0px;
+    background-color:rgb(253, 255, 255);
+    opacity: 50%;
+}
+#navBarMenu{
+    text-align: right;
+    padding:5px ;
+}
+ul.navBarMlist{
+    list-style: none;
+}
+ul.navBarMlist > li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+ul.navBarMlist > li > a {
+    color:black;
+    text-decoration: none;
+}
+ul.navBarMlist > li > a:hover{
+    color:darkturquoise
+}
+.navBarBrand{
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 5px 0px 20px;
+    text-shadow: 4px 4px 10px black;
+}
+.text1{
+    font-size: 40px;
+    position: relative;
+    top:200px;
+    left: 5%;
+}
